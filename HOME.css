@@ -1,0 +1,104 @@
+/* Reset and fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Georgia', serif;
+  color: white;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: white;
+  color: #ff009c;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fd299b;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('image/perfume.jpg') center center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 3rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.4);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.subheading {
+  color:  #fdb3db;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color:  #fd299b,;
+  color: #ea0062;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color:  #ea81b9;
+}

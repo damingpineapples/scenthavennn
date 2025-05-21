@@ -1,0 +1,159 @@
+/* Reset and fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Georgia', serif;
+  color: white;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: white;
+  color: #ff009c;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fd299b;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* Newsletter Section */
+.newsletter {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: Georgia, serif;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.subscribe-form input {
+  padding: 0.8rem 1rem;
+  width: 300px;
+  border: none;
+  font-size: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.subscribe-form button {
+  background-color: #fd299b;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.3s ease;
+}
+
+
+
+/* Footer Styles */
+.footer {
+  background-color: #0e0e0e;
+  color: #ccc;
+  padding: 3rem 2rem;
+  font-size: 0.95rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about {
+  flex: 1 1 250px;
+}
+
+.logo-footer {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  color: #fd299b;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  flex: 2 1 600px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #222;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+}
